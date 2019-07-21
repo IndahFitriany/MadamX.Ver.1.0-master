@@ -13,19 +13,37 @@ class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func toMyActivities(_ sender: Any) {
+        
+        performSegue(withIdentifier: "toMyActivities", sender: nil)
     }
-    */
-
+    
+    
+    @IBAction func toMyRewards(_ sender: Any) {
+        performSegue(withIdentifier: "toMyRewards", sender: nil)
+    }
+    
+    @IBAction func toMyClues(_ sender: Any) {
+        performSegue(withIdentifier: "toMyClues", sender: nil)
+    }
+    
+    @IBAction func toMyRewards1(_ sender: Any) {
+        
+        performSegue(withIdentifier: "toMyRewards1", sender: nil)
+    }
+    
+    
+    @IBAction func toMyClues1(_ sender: Any) {
+        
+        performSegue(withIdentifier: "toMyClues1", sender: nil)
+    }
+    
+    
+    @IBAction func toMyActivities1(_ sender: Any) {
+        performSegue(withIdentifier: "toMyActivities1", sender: nil)
+    }
+    
 }

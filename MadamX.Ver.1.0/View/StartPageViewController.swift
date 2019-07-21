@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import AVFoundation
+
 
 class StartPageViewController: UIViewController {
 
     var counter = 0
     
     var obj = [Activity]()
+    
+    var typeWriterSound = [typewriterMusic] ()
+    
+    var typewriterPlayer: AVAudioPlayer = AVAudioPlayer()
     
     @IBOutlet weak var storyLabel: UILabel!
     
@@ -24,9 +30,24 @@ class StartPageViewController: UIViewController {
         "She would love it.",
         "WHO?????.....",
         "I am talking about the previous owner.",
-        "She was 89 years old when she died here few months ago.",
-        "She's been living here for years but no one actually knows her that well."
+        "No one really knows her that well but we call her Miss Mardot",
+        "That's not her real name though",
+        "She used to live here for years but she moved out around 5 months ago",
+        "If you found something that doesn't belong to you, that might be hers.",
+        "Rumors that she hides her fortune in random place around the house."
     ]
+    
+    /*var musicContent = [
+        "Line 1",
+        "Line 2",
+        "Line 3",
+        "Line 4",
+        "Line 5",
+        "Line 6",
+        "Line 7",
+        "Line 8"
+    ]
+    */
     
     @IBAction func nextStoryButtonTap(_ sender: UIButton) {
         print(obj[counter].getName())
@@ -34,17 +55,20 @@ class StartPageViewController: UIViewController {
         
         counter+=1
         
-        
-        if counter == 8 {
+        if counter == 11 {
             
         performSegue(withIdentifier: "prologue_segue", sender: nil)
         }else{
+      //      self.starttypeWritterMusic()
             animateStory()
+          
+            
         }
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+  //     self.starttypeWritterMusic()
         self.animateStory()
     
     }
@@ -58,7 +82,22 @@ class StartPageViewController: UIViewController {
             storyLabel.text! += "\(char)"
             RunLoop.current.run(until: Date()+0.07)
         }
+        
+        
+        
+      
     }
+    
+   /*
+     func starttypeWritterMusic() {
+        let typewritterSound = Bundle.main.path(forResource: musicContent[0], ofType: ".mp3")
+        let url = NSURL(fileURLWithPath: typewritterSound!)
+        typewriterPlayer = try! AVAudioPlayer(contentsOf: url as URL)
+        typewriterPlayer.prepareToPlay()
+        typewriterPlayer.play()
+
+    }
+*/
     
     @IBOutlet weak var nextStory: UIButton!
     
@@ -69,17 +108,11 @@ class StartPageViewController: UIViewController {
             obj.append(Activity(name: content[i]))
         }
         // Do any additional setup after loading the view.
+        
+    
+        }
+        
+        
+
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-}

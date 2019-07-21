@@ -20,6 +20,15 @@
 		521003F122DECABE00A7B404 /* PrologueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521003F022DECABE00A7B404 /* PrologueViewController.swift */; };
 		521003F322E0223200A7B404 /* StartPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521003F222E0223200A7B404 /* StartPageViewController.swift */; };
 		521003F722E02D1D00A7B404 /* StartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521003F622E02D1D00A7B404 /* StartPage.swift */; };
+		ACCD86DE22E3019B007AC48D /* typewriterMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCD86DD22E3019B007AC48D /* typewriterMusic.swift */; };
+		ACCD86E022E3073E007AC48D /* Line 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACCD86DF22E3073E007AC48D /* Line 1.mp3 */; };
+		ACCD86E222E30869007AC48D /* Line 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACCD86E122E30869007AC48D /* Line 2.mp3 */; };
+		ACCD86E422E30970007AC48D /* Line 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACCD86E322E30970007AC48D /* Line 3.mp3 */; };
+		ACCD86E622E30976007AC48D /* Line 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACCD86E522E30976007AC48D /* Line 4.mp3 */; };
+		ACCD86E822E30B13007AC48D /* Line 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACCD86E722E30B13007AC48D /* Line 5.mp3 */; };
+		ACCD86EA22E30B19007AC48D /* Line 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACCD86E922E30B19007AC48D /* Line 6.mp3 */; };
+		ACCD86EC22E30B1E007AC48D /* Line 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACCD86EB22E30B1E007AC48D /* Line 7.mp3 */; };
+		ACCD86EE22E30CEC007AC48D /* Line 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACCD86ED22E30CEC007AC48D /* Line 8.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +47,15 @@
 		521003F022DECABE00A7B404 /* PrologueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrologueViewController.swift; sourceTree = "<group>"; };
 		521003F222E0223200A7B404 /* StartPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPageViewController.swift; sourceTree = "<group>"; };
 		521003F622E02D1D00A7B404 /* StartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StartPage.swift; path = MadamX.Ver.1.0/View/StartPage.swift; sourceTree = SOURCE_ROOT; };
+		ACCD86DD22E3019B007AC48D /* typewriterMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typewriterMusic.swift; sourceTree = "<group>"; };
+		ACCD86DF22E3073E007AC48D /* Line 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Line 1.mp3"; sourceTree = "<group>"; };
+		ACCD86E122E30869007AC48D /* Line 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Line 2.mp3"; sourceTree = "<group>"; };
+		ACCD86E322E30970007AC48D /* Line 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Line 3.mp3"; sourceTree = "<group>"; };
+		ACCD86E522E30976007AC48D /* Line 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Line 4.mp3"; sourceTree = "<group>"; };
+		ACCD86E722E30B13007AC48D /* Line 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Line 5.mp3"; sourceTree = "<group>"; };
+		ACCD86E922E30B19007AC48D /* Line 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Line 6.mp3"; sourceTree = "<group>"; };
+		ACCD86EB22E30B1E007AC48D /* Line 7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Line 7.mp3"; sourceTree = "<group>"; };
+		ACCD86ED22E30CEC007AC48D /* Line 8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Line 8.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +93,14 @@
 				3169BE9622DD867F00B09861 /* Model */,
 				3169BE8422DD73CA00B09861 /* art.scnassets */,
 				3169BE8B22DD73CB00B09861 /* Assets.xcassets */,
+				ACCD86DF22E3073E007AC48D /* Line 1.mp3 */,
+				ACCD86E122E30869007AC48D /* Line 2.mp3 */,
+				ACCD86E322E30970007AC48D /* Line 3.mp3 */,
+				ACCD86E522E30976007AC48D /* Line 4.mp3 */,
+				ACCD86E722E30B13007AC48D /* Line 5.mp3 */,
+				ACCD86E922E30B19007AC48D /* Line 6.mp3 */,
+				ACCD86EB22E30B1E007AC48D /* Line 7.mp3 */,
+				ACCD86ED22E30CEC007AC48D /* Line 8.mp3 */,
 				3169BE8D22DD73CB00B09861 /* LaunchScreen.storyboard */,
 				3169BE9022DD73CB00B09861 /* Info.plist */,
 			);
@@ -86,6 +112,7 @@
 			children = (
 				521003EA22DDE4CB00A7B404 /* RoomsModel.swift */,
 				521003F622E02D1D00A7B404 /* StartPage.swift */,
+				ACCD86DD22E3019B007AC48D /* typewriterMusic.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,8 +199,16 @@
 			files = (
 				3169BE8522DD73CA00B09861 /* art.scnassets in Resources */,
 				3169BE8F22DD73CB00B09861 /* LaunchScreen.storyboard in Resources */,
+				ACCD86EC22E30B1E007AC48D /* Line 7.mp3 in Resources */,
 				3169BE8C22DD73CB00B09861 /* Assets.xcassets in Resources */,
+				ACCD86EE22E30CEC007AC48D /* Line 8.mp3 in Resources */,
 				3169BE8A22DD73CA00B09861 /* Main.storyboard in Resources */,
+				ACCD86EA22E30B19007AC48D /* Line 6.mp3 in Resources */,
+				ACCD86E622E30976007AC48D /* Line 4.mp3 in Resources */,
+				ACCD86E422E30970007AC48D /* Line 3.mp3 in Resources */,
+				ACCD86E222E30869007AC48D /* Line 2.mp3 in Resources */,
+				ACCD86E822E30B13007AC48D /* Line 5.mp3 in Resources */,
+				ACCD86E022E3073E007AC48D /* Line 1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +221,7 @@
 			files = (
 				521003EF22DDEF1B00A7B404 /* ProfileViewController.swift in Sources */,
 				521003EB22DDE4CB00A7B404 /* RoomsModel.swift in Sources */,
+				ACCD86DE22E3019B007AC48D /* typewriterMusic.swift in Sources */,
 				521003E922DDE3CA00A7B404 /* RoomsCollectionViewCell.swift in Sources */,
 				3169BE8722DD73CA00B09861 /* ViewController.swift in Sources */,
 				521003F322E0223200A7B404 /* StartPageViewController.swift in Sources */,
